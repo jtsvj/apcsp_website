@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Night_sky_from_Tony_Grove_Lake%2C_United_States.jpg/1024px-Night_sky_from_Tony_Grove_Lake%2C_United_States.jpg')
+    no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(30px);
+    z-index: -1;
+    position: absolute;
+}
+
+.loading-text {
+    font-size: 70px;
+    color: white;
+}
